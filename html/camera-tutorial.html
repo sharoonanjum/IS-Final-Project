@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camera Tutorial</title>
+    
+    <!-- Link to Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- Link to the original stylesheet -->
+    <link rel="stylesheet" href="original-stylesheet.css"> 
+
+    <!-- Link to your new stylesheet -->
+    <link rel="stylesheet" href="camera-style.css"> 
+</head>
+<body>
+
+    <!-- Navigation back to the main page -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="../index.html">Home</a>
+    </nav>
+
+    <!-- Page Content -->
+    <section class="resume-section" id="camera-tutorial">
+        <div class="container">
+            <div class="resume-section-content">
+                <h1 class="mb-5">How to Use a Camera</h1>
+
+                <!-- List of items needed -->
+                <h2 class="mb-3">What You Need</h2>
+                <ul>
+                    <li>Camera</li>
+                </ul>
+                <p>That's all you need! But to get better, learn these three things:</p>
+
+                <!-- Ordered list embedded in an unordered list -->
+                <ol>
+                    <li><a href="#iso">ISO</a></li>
+                    <li><a href="#shutter">Shutter Speed</a></li>
+                    <li><a href="#aperture">Aperture</a></li>
+                </ol>
+
+                <!-- Section for each concept with anchor links -->
+                <div class="mt-4">
+                    <h3 id="iso">ISO</h3>
+                    <p>ISO controls the camera's sensitivity to light.</p>
+                </div>
+
+                <div class="mt-4">
+                    <h3 id="shutter">Shutter Speed</h3>
+                    <p>Shutter speed determines how long the camera's sensor is exposed to light.</p>
+                </div>
+
+                <div class="mt-4">
+                    <h3 id="aperture">Aperture</h3>
+                    <p>Aperture controls the size of the lens opening, affecting depth of field and exposure.</p>
+                </div>
+
+                <!-- Embedded YouTube video -->
+                <div class="mt-5">
+                    <h2>Watch this Video</h2>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Nk78nH3d8hU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+                <!-- Images from your gallery in a grid -->
+                <!-- Images from your gallery in a grid -->
+<div class="mt-5">
+    <h2>Sample Photos</h2>
+    <div class="row">
+        <!-- Square image, placed above the taller images -->
+        <div class="col-md-12 mb-4">
+            <div class="img-container-square">
+                <img src="../assets/img/DSC_5683.jpg" alt="Proposal" class="img-fluid">
+            </div>
+        </div>
+
+        <!-- Taller images, placed side by side -->
+        <div class="col-md-6 mb-4">
+            <div class="img-container-tall">
+                <img src="../assets/img/blue.JPG" alt="All Blue" class="img-fluid">
+            </div>
+        </div>
+        <div class="col-md-6 mb-4">
+            <div class="img-container-tall">
+                <img src="../assets/img/Temple in sight.JPG" alt="Temple In Sight" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                <!-- Embedded Tableau visualization -->
+                <div class="mt-5">
+                    <h2>Photography Exposure Triangle</h2>
+                    <div class='tableauPlaceholder' id='viz1723701957120' style='position: relative'>
+                        <noscript><a href='#'><img alt='Astro Exposure Calculator ' src='https://public.tableau.com/static/images/X6/X6SG92JFY/1_rss.png' style='border: none' /></a></noscript>
+                        <object class='tableauViz'>
+                            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                            <param name='embed_code_version' value='3' /> 
+                            <param name='path' value='shared&#47;X6SG92JFY' /> 
+                            <param name='toolbar' value='yes' />
+                            <param name='static_image' value='https://public.tableau.com/static/images/X6/X6SG92JFY/1.png' /> 
+                            <param name='animate_transition' value='yes' />
+                            <param name='display_static_image' value='yes' />
+                            <param name='display_spinner' value='yes' />
+                            <param name='display_overlay' value='yes' />
+                            <param name='display_count' value='yes' />
+                            <param name='language' value='en-GB' />
+                        </object>
+                    </div>
+                </div>
+
+                <!-- Anchor link back to the top -->
+                <p class="mt-5"><a href="#camera-tutorial">Back to top</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script type='text/javascript'>
+        var divElement = document.getElementById('viz1723701957120');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        vizElement.style.width='800px';vizElement.style.height='827px';
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+</body>
+</html>
